@@ -1,0 +1,61 @@
+/* Estilos para scroll en modal de roles */
+.scrollable-roles::-webkit-scrollbar {
+    width: 8px;
+}
+.scrollable-roles::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+.scrollable-roles::-webkit-scrollbar-track {
+    background-color: #f8f9fa;
+}
+/* Firefox */
+.scrollable-roles {
+    scrollbar-width: thin;
+    scrollbar-color: #ccc #f8f9fa;
+}
+
+.scrollable-roles {
+    overscroll-behavior-y: contain; /* Evita que el scroll se propague al padre */
+    touch-action: pan-y; /* Mejor comportamiento en dispositivos táctiles */
+}
+
+.scrollable-roles {
+    max-height: 300px;       /* Altura máxima ajustable */
+    overflow-y: auto;        /* Scroll vertical */
+    overscroll-behavior: contain; /* Evita propagación del scroll */
+    scrollbar-width: thin;   /* Para Firefox */
+}
+
+/* Estilos del scrollbar (opcional pero recomendado) */
+.scrollable-roles::-webkit-scrollbar {
+    width: 8px;
+}
+.scrollable-roles::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+.scrollable-roles::-webkit-scrollbar-track {
+    background-color: #f8f9fa;
+}
+
+/* Estilo para el contenedor de permisos */
+.scrollable-permissions {
+    max-height: 250px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    margin-bottom: 15px; /* Espacio antes de la siguiente sección */
+}
+
+/* Estilo del scrollbar (coherente con el diseño) */
+.scrollable-permissions::-webkit-scrollbar {
+    width: 6px; /* Un poco más delgado para permisos */
+}
+.scrollable-permissions::-webkit-scrollbar-thumb {
+    background-color: #adb5bd;
+    border-radius: 3px;
+}
+.scrollable-permissions::-webkit-scrollbar-track {
+    background-color: #f1f3f5;
+}
