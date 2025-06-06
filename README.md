@@ -1,2 +1,2 @@
 # ProyectoADPG
-hola
+Hola ¿Qué tal? Este repositorio contiene el código fuente principal del proyecto ADPG (Administrador de Producto Ganadero), pero antes hay que aclarar algo: para que funcione la parte de los estados y municipios en tu SGBD debes importar los archivos de estados.csv y municipios.csv en sus respectivas tablas en la base de datos, dichos archivo se encuentran en este repositorio, sin nada más que comentar, gracias por usar nuestro sistema :D
